@@ -11,7 +11,7 @@ Docker compose files that make metrics from multiple servers available externall
 2. Set up a monitoring target server
 
    ```bash
-   docker compose up -d --build -f compose.target.yml
+   docker compose -f compose.target.yml up -d --build
    ```
 
 3. Add the target server IP address etc. to prometheus.yml.
