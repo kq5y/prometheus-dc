@@ -18,7 +18,7 @@ services:
       - '--web.enable-lifecycle'
     networks:
       - monitoring
-   tunnel:
+  tunnel:
     image: cloudflare/cloudflared:latest
     container_name: tunnel
     restart: unless-stopped
