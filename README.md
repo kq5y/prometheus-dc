@@ -1,6 +1,6 @@
 # prometheus-dc
 
-Docker compose files that make metrics from multiple servers available externally through a cloudflare tunnel using prometheus. Prometheus endpoint is assumed to be accessed from Grafana Cloud by setting service auth with Cloudflare Access. You can get a good visualization by using the [`ID: 893`](https://grafana.com/grafana/dashboards/893-main/) dashboard.
+Docker compose files that make metrics from multiple servers available externally through a cloudflare tunnel using prometheus. Prometheus endpoint is assumed to be accessed from Grafana Cloud by setting service auth with Cloudflare Access. You can get a good visualization by using the [`ID: 14282`](https://grafana.com/grafana/dashboards/14282-cadvisor-exporter/) dashboard.
 
 ## Usage
 
