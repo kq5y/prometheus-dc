@@ -9,5 +9,5 @@
 3. Launch with compose
 
    ```bash
-   export UID=${UID} docker compose up -d --build
+   docker compose up -d --build
    ```
